@@ -1,3 +1,6 @@
+html, body {
+  background-color: #F0F0F0; }
+
 /* ==========================================================================
    GENERIC / RESET
    ========================================================================== */
@@ -362,5 +365,39 @@ textarea {
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.color-block {
+  padding: 10px;
+  border-radius: 5px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px; }
+
+.color-block--pale-turquoise {
+  background-color: #96ceb4; }
+
+.color-block--turquoise {
+  background-color: #88d8b0; }
+
+.color-block--biege {
+  background-color: #ffeead; }
+
+.color-block--red {
+  background-color: #ff6f69; }
+
+.color-block--orange {
+  background-color: #ffcc5c; }
+
+.color-block--black {
+  background-color: #000;
+  color: #fff; }
+
+.color-block--white {
+  background-color: #fff;
+  color: #000; }
 
 /*# sourceMappingURL=global.css.map */
