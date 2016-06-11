@@ -436,7 +436,7 @@ a {
   zoom: 1;
   /* For IE 6/7 */ }
 
-/*  GRID OF TWO  */
+/** GRID OF TWO  **/
 .span_2_of_2 {
   width: 100%; }
 
