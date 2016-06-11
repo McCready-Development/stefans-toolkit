@@ -373,6 +373,13 @@ p {
 label {
   font-size: 16px; }
 
+a {
+  color: #ff6f69;
+  text-decoration: underline; }
+  a:hover {
+    color: #ffa09c;
+    cursor: pointer; }
+
 .container {
   width: 1140px;
   margin: 0 auto; }
@@ -499,5 +506,36 @@ label {
 
 .icon {
   font-size: 16px; }
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em; }
+  .btn:hover {
+    cursor: pointer; }
+  .btn:focus {
+    outline: none; }
+
+.btn--red {
+  background-color: #ff6f69;
+  color: #fff; }
+  .btn--red:hover {
+    background-color: #ff8783; }
+
+.btn--blue {
+  background-color: #96ceb4;
+  color: #fff; }
+  .btn--blue:hover {
+    background-color: #a7d6c0; }
+
+.btn--disabled {
+  background-color: #acacac;
+  color: #000; }
+  .btn--disabled:hover {
+    cursor: not-allowed; }
+  .btn--disabled:focus {
+    outline: none; }
 
 /*# sourceMappingURL=global.css.map */

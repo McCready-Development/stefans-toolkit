@@ -1,0 +1,40 @@
+.btn {
+  border:none;
+  border-radius: 5px;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  &:hover{
+    cursor: pointer;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+
+.btn--red {
+  background-color: ($red);
+  color: ($white);
+  &:hover{
+    background-color: lighten($red, 5%);
+  }
+}
+
+.btn--blue {
+  background-color: ($pale-turquiose);
+  color: ($white);
+  &:hover{
+    background-color: lighten($pale-turquiose, 5%);
+  }
+}
+
+.btn--disabled {
+  background-color: ($disabled);
+  color: ($black);
+  &:hover{
+    cursor: not-allowed;
+  }
+  &:focus{
+    outline: none;
+  }
+}
