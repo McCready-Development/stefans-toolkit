@@ -1,0 +1,35 @@
+.color-block{
+  padding: 10px;
+  border-radius: 5px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+}
+
+.color-block--pale-turquoise {
+  background-color: ($pale-turquiose)
+}
+
+.color-block--turquoise {
+  background-color: ($turquiose)
+}
+
+.color-block--biege {
+  background-color: ($biege);
+}
+
+.color-block--red {
+  background-color: ($red);
+}
+
+.color-block--orange {
+  background-color: ($orange);
+}
+.color-block--black {
+  background-color: ($black);
+  color: ($white);
+}
+.color-block--white {
+  background-color: ($white);
+  color: ($black);
+}
