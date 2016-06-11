@@ -1,9 +1,3 @@
-html, body {
-  background-color: #F0F0F0; }
-
-h3, h4, h5, h6, p {
-  display: table; }
-
 /* ==========================================================================
    GENERIC / RESET
    ========================================================================== */
@@ -369,6 +363,19 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+html, body {
+  background-color: #F0F0F0;
+  font-family: 'Didact Gothic', sans-serif; }
+
+h3, h4, h5, h6, p {
+  display: table; }
+
+p {
+  font-size: 16px; }
+
+label {
+  font-size: 16px; }
+
 .container {
   width: 1140px;
   margin: 0 auto; }
@@ -471,5 +478,20 @@ textarea {
 .color-block--white {
   background-color: #fff;
   color: #000; }
+
+.heading-small {
+  font-size: 28px; }
+
+.heading-medium {
+  font-size: 38px; }
+
+.heading-large {
+  font-size: 48px; }
+
+.caption {
+  font-size: 14px; }
+
+.icon {
+  font-size: 16px; }
 
 /*# sourceMappingURL=global.css.map */
