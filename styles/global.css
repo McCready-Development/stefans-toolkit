@@ -462,6 +462,12 @@ a {
 .text-right {
   text-align: right; }
 
+.text-bold {
+  font-weight: bold; }
+
+.text-italic {
+  font-style: italic; }
+
 .color-block {
   padding: 10px;
   border-radius: 5px;
