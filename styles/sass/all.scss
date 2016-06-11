@@ -1,11 +1,15 @@
 ////// SETTINGS //////
 @import 'settings/colours';
 @import 'settings/globals';
+@import 'settings/typography';
 
 ////// GENERIC //////
-@import 'generic/page';
 @import 'generic/reset';
 @import 'generic/normalize';
+
+////// ELEMENTS //////
+@import 'elements/page';
+@import 'elements/typography';
 
 ////// OBJECTS //////
 @import 'objects/container';
@@ -13,6 +17,9 @@
 
 ////// UTILITIES //////
 @import 'utilities/spacing';
+@import 'utilities/typography';
+
 
 ////// COMPONENTS //////
 @import 'components/color-block';
+@import 'components/typography';
