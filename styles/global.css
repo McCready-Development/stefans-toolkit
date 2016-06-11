@@ -370,6 +370,51 @@ textarea {
   width: 1140px;
   margin: 0 auto; }
 
+.margin-all-small {
+  margin: 10px; }
+
+.margin-all-normal {
+  margin: 20px; }
+
+.margin-all-large {
+  margin: 40px; }
+
+.margin-left-small {
+  margin-left: 10px; }
+
+.margin-left-normal {
+  margin-left: 20px; }
+
+.margin-left-large {
+  margin-left: 40px; }
+
+.margin-right-small {
+  margin-right: 10px; }
+
+.margin-right-normal {
+  margin-right: 20px; }
+
+.margin-right-large {
+  margin-right: 40px; }
+
+.margin-top-small {
+  margin-top: 10px; }
+
+.margin-top-normal {
+  margin-top: 20px; }
+
+.margin-top-large {
+  margin-top: 40px; }
+
+.margin-bottom-small {
+  margin-bottom: 10px; }
+
+.margin-bottom-normal {
+  margin-bottom: 20px; }
+
+.margin-bottom-large {
+  margin-bottom: 40px; }
+
 .color-block {
   padding: 10px;
   border-radius: 5px;

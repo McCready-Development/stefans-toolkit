@@ -1,5 +1,6 @@
 ////// SETTINGS //////
 @import 'settings/colours';
+@import 'settings/globals';
 
 ////// GENERIC //////
 @import 'generic/page';
@@ -8,6 +9,9 @@
 
 ////// OBJECTS //////
 @import 'objects/container';
+
+////// UTILITIES //////
+@import 'utilities/spacing';
 
 ////// COMPONENTS //////
 @import 'components/color-block';
