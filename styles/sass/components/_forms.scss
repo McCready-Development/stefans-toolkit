@@ -1,0 +1,51 @@
+.form {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.form--section {
+    display: block;
+    width: 100%;
+    margin-bottom: $global-spacing-unit/2;
+    @media screen and (min-width: 768px){
+        width: 20em;
+    }
+}
+
+.form--input {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    box-sizing:border-box;
+    padding: 10px;
+}
+
+.form--error {
+    color: red;
+    border-color: red;
+}
+
+.form--dropdown {
+  width: 100%;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  box-sizing:border-box;
+  padding: 10px;
+  background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 95%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  margin-bottom: $global-spacing-unit/2;
+  @media screen and (min-width: 768px){
+      width: 20em;
+  }
+  &:focus {
+     outline: none;
+  }
+}
