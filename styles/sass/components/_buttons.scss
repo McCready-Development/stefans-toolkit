@@ -4,6 +4,7 @@
   padding: 1em;
   padding-left: 2em;
   padding-right: 2em;
+  margin-bottom: 1em;
   &:hover{
     cursor: pointer;
   }
@@ -36,5 +37,13 @@
   }
   &:focus{
     outline: none;
+  }
+}
+
+.btn--form-submit {
+  width: 100%;
+  margin-bottom: $global-spacing-unit/2;
+  @media screen and (min-width: 768px){
+      width: 20em;
   }
 }
