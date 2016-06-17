@@ -692,8 +692,8 @@ a {
   padding: 10px; }
 
 .form--error {
-  color: red;
-  border-color: red; }
+  color: #ff0000;
+  border-color: #ff0000; }
 
 .form--dropdown {
   width: 100%;

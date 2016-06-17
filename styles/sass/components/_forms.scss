@@ -25,8 +25,8 @@
 }
 
 .form--error {
-    color: red;
-    border-color: red;
+    color: ($error);
+    border-color: ($error);
 }
 
 .form--dropdown {
